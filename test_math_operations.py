@@ -5,3 +5,6 @@ def test_addition():
 
 def test_subtraction():
     assert math_operations.subtract(5, 3) == 2
+
+def test_wrongsubtraction():
+    assert math_operations.subtract(5, 4) == 2
